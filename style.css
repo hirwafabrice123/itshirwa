@@ -1,0 +1,44 @@
+body{
+    width: 100%;
+    background-color: green;
+    color: aliceblue;
+}
+.navigation{
+ width: 100%;  
+ display: flex; 
+ flex-direction: row;
+ justify-content: space-between;
+}
+ul{
+   display: flex; 
+   flex-direction: row;
+   list-style-type: none;
+   margin-right: 20px;
+}
+ol{
+   display: flex; 
+   flex-direction: row;
+   list-style-type: none;
+   margin-right: 20px;
+   justify-content: space-evenly;
+}
+ul li{
+    margin-left: 21px;
+}
+ol li{
+    margin-left: 21px;
+    justify-content: left;
+
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+.content-discreption{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    
+}
